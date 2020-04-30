@@ -1,0 +1,66 @@
+= Internet
+
+[glossary]
+== Glossary
+Internet Protocol (IP) :: Unique address
+Internet Service Provider (ISP) :: Courier
+Packets :: Decomposed data
+Router :: Directs packets
+Server :: Serves data
+Client :: Requests data
+Domain Name:: Custom name for Address (Home, Work)
+Domain Name Server (DNS):: Phone book
+
+== How does the internet work?
+Data -> TCP/IP -> Router -> ISP
+
+=== Resources
+link:https://www.youtube.com/watch?v=TNQsmPf24go[How Does the Internet Work? - Glad You Asked]
+
+== What is HTTP
+
+== Transport Control Protocol/Internet Protocol (TCP/IP)
+`Program -> Application -> Port -> Transport -> Internet -> Network`
+
+1. Application 
+.. Protocols: http, smtp, dns, ftp
+.. Puts onto Port
+2. Transport 
+.. Protocols: TCP, UDP
+.. Takes from Port and Transforms data to packets and adds header
+3. Internet
+.. Protocol: IP
+.. Add origin and destination ip address 
+4. Network
+.. Adds MAC address
+
+=== Resources
+link:https://www.youtube.com/watch?v=PpsEaqJV_A0&list=RDRck3BALhI5c&index=2[What is TCP/IP]
+link:https://www.youtube.com/watch?v=QRYzre4bf7I[Onion Routing]
+
+== DNS
+The Domain Name System (DNS) protocol is an important part of the web's infrastructure, serving as the Internet's phone book: every time you visit a website, your computer performs a DNS lookup. Complex pages often require multiple DNS lookups before they start loading, so your computer may be performing hundreds of lookups a day.
+
+=== Example
+Run `nslookup google.com` => `216.58.198.174`.
+Paste `216.58.198.174` into browser url and you end at `google.com`
+
+[source, sh]
+----
+> nslookup google.com
+
+Server:		10.2.1.10
+Address:	10.2.1.10#53
+
+Non-authoritative answer:
+Name:	google.com
+Address: 216.58.198.174
+----
+
+=== Resources
+link:https://www.youtube.com/watch?v=Y4cRx19nhJk[What is a Domain name?]
+link:https://www.youtube.com/watch?v=Rck3BALhI5c[DNS as Fast As Possible]
+
+== Hosting
+
+== Browsers
