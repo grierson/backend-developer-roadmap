@@ -1,0 +1,6 @@
+= Architectural
+
+* Mono 
+* Microservice
+* SOA
+* Serverless

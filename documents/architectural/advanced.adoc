@@ -1,0 +1,18 @@
+= Advanced
+* Migration strategies
+* Horizontal vs Vertical scaling
+* Observability (Help with debugging)
+** Logging
+** Instrumentation
+
+== Migration
+* Graceful degradation
+* Throttling
+* Back pressure
+* Load shifting
+* Circuit breaker
+
+== Understand the diff
+* Instrumentation
+* Monitoring
+* Telemetry

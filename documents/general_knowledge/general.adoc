@@ -1,0 +1,23 @@
+= General knowlegde
+
+== Terminal usage
+
+== OS
+
+== Process management
+
+== Threads and Concurrency
+
+== Terminal
+grep, awk, sed, lsof, curl, wget, tail, head, less, find, ssh, kill
+
+== Memory management
+
+== Interprocess communication
+
+== IO 
+
+== POSIX basics
+stdin, stdout, stderr, pipes
+
+== Networking

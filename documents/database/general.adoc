@@ -1,0 +1,12 @@
+= Database
+
+== ORM
+
+== ACID
+
+== Transaction
+
+== N+1 problem
+
+== Graph
+GraphQL, pathom, neo4j, Relay modern

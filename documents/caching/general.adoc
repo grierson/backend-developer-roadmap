@@ -1,0 +1,2 @@
+= Caching
+CDN, Client side, [Redis, Memcached]

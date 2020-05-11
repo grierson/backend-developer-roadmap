@@ -1,0 +1,8 @@
+= Design
+
+* SOLID
+* KISS
+* YAGNI
+* DRY
+* TDD
+* DDD
