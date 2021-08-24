@@ -1,0 +1,34 @@
+= Topic
+
+Ordered collection of events in a durable way.
+Category of message so producers and consumers can write/read from.
+
+* Append only
+* Ordered by time
+* Immutable facts (events)
+
+== Message
+
+* Timestamp
+* Referenceable identifier
+* Payload
+
+== Message Offset
+
+* Why
+** So consumers can read messages at own pace.
+* How 
+** Consumer records last read message.
+
+== Retention policy
+
+* Policy applied per Topic
+* Old messages removed after 7 days
+
+== Partitions
+
+* Each topic has one or more partitions
+* Why
+** Scale
+** Fault tolerant
+** Higher throughput

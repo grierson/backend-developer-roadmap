@@ -1,3 +1,45 @@
 = Message broker
 
 Rabbit, Kafka, core.async
+
+== Glossary
+
+Broker::
+* Receives messages 
+* Categorise into Topics
+* Persist for later consumption
+
+Controller Broker::
+Broker availability in cluster, Replicates messages and assigns to many Leaders
+
+Leader Broker::
+
+Follower Broker::
+
+
+Cluster::
+Many brokers
+
+Producers::
+Create messages
+
+Consumers::
+Read messages
+
+Topic::
+Specific location on Broker to write or read from on Broker
+
+
+== Broker
+* Can scale amount of brokers
+** Linkedin has over 1,400 brokers handling over 2 petabytes per week
+
+== ZooKeeper
+Centralised store that records Clusters and Leader information.
+Assigns the leader in a cluster.
+Consumer uses Zookeeper to discover with Brokers have the partition.
+
+== Replication factor
+
+Increases fault tolerance if broker fails.
+Creates duplicates with  
