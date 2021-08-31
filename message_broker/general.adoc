@@ -5,6 +5,7 @@ Rabbit, Kafka, core.async
 == Glossary
 
 Broker::
+Server which convey messages
 * Receives messages 
 * Categorise into Topics
 * Persist for later consumption
@@ -16,7 +17,6 @@ Leader Broker::
 
 Follower Broker::
 
-
 Cluster::
 Many brokers
 
@@ -27,7 +27,28 @@ Consumers::
 Read messages
 
 Topic::
-Specific location on Broker to write or read from on Broker
+Category of message for producers to write too and for a consumer to read from
+
+Partition (Commit log)::
+* What
+** Ordered set of messages 
+** Each message is identified by it's offset in the partition
+** Messages appended (FIFO)
+* Why
+** Allows messages to be distributed across brokers 
+
+== What tools
+
+* Messaging system
+** Broker
+** Zookeeper
+* Stream processing
+** Kafka streams
+** Apache storm
+* Log aggregation
+** HDFS
+* Commit log
+* Event sourcing
 
 
 == Broker

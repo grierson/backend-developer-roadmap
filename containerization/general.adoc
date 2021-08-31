@@ -1,3 +1,16 @@
 = Containerisation
 
-Docker
+VM's require Hypervisor + Guest OS, Containers don't so it's smaller and faster.
+
+== Benefits
+
+* Can run many apps on one server. (More efficient + Scaling)
+* Dependencies bundled with app within container 
+** Fixes "It works on my machine" problem 
+** Containers can have conflicting library versions without impacting each other
+
+== Tools
+
+* Docker
+* rkt
+* lxd
