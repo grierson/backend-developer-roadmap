@@ -1,12 +1,29 @@
 = Database
 
+Way of storing data
+
 == ORM
+
+Map Row to Object
 
 == ACID
 
+* Atomic
+** Transactions are all or nothing
+* Consistent
+** Only valid data before and after transaction
+* Isolated
+** Transactions are isolated
+* Durable
+** Data permanently stored
+
 == Transaction
 
+A unit of work
+
 == N+1 problem
+
+
 
 == Graph
 GraphQL, pathom, neo4j, Relay modern
