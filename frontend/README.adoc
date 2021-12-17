@@ -2,6 +2,12 @@
 
 == HTML
 
+Content you want to display
+
 == CSS
 
+How you want to display the content
+
 == Javascript
+
+Add logic to website. (e.g Add item to cart, Sign in)

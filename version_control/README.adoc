@@ -1,1 +1,25 @@
 = Version control system
+
+== 5 Why's
+
+=== Who
+Every developer
+
+=== What
+Way to store new versions of code
+
+=== When
+* After every passing test
+* Successful chunk of work
+
+=== Why
+To avoid this
+
+image::resources/final.jpeg[final document]
+
+* History of changes so that you can revert any change
+* Handle merging in other peoples code
+* Try out new code
+** branch
+** stash
+** revert changes

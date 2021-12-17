@@ -1,4 +1,4 @@
-= General knowlegde
+= General knowledge
 
 == Terminal usage
 

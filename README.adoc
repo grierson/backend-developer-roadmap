@@ -1,3 +1,27 @@
 = Backend developer roadmap
 
+== Checklist
+
+* [ ] Internet
+* [ ] Basic Frontend knowledge
+* [ ] OS and General Knowledge
+* [x] Language (Clojure)
+* [ ] Version Control
+* [ ] Relation Databases
+* [ ] API
+* [ ] Caching
+* [ ] Security
+* [ ] Testing
+* [ ] CI / CD
+* [ ] Design and Development principles
+* [ ] Search Engine
+* [ ] Message Broker
+* [ ] Containers
+* [ ] GraphQL
+* [ ] Graph database
+* [ ] WebSockets
+* [ ] Web Servers
+* [ ] Build for scale
+
+
 image::roadmap.png[Roadmap]
